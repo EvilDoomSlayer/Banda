@@ -368,7 +368,7 @@ void loop() {
       if(TIME<=0){ //Si el tiempo llega a 0
         Lullaby(); //Se activa el Buzzer
         contador ++; //Se reduce un ciclo de los 12
-        SEGUNDOS2 = 300; //Reinicia el temporizador
+        SEGUNDOS2 = 280; //Reinicia el temporizador
       }
       Serial.print("TIME: ");
       Serial.println(TIME);
